@@ -2,6 +2,6 @@ services:
   - type: web
     name: compreface
     env: docker
-    dockerCommand: docker-compose up
+    dockerfilePath: ./docker-compose.yml
     plan: free
     autoDeploy: true
