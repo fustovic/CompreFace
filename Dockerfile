@@ -1,0 +1,1 @@
+FROM exadel/compreface:latest
