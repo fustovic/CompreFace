@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: compreface
+    env: docker
+    dockerCommand: docker-compose up
+    plan: free
+    autoDeploy: true
